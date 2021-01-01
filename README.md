@@ -6,7 +6,9 @@ For converting url to 20sec mp3..
 
 ```bash
 cd instazam-python
-python3 -m venv ./venv
+virtualenv venv
 source ./venv/bin/activate
 pip install -r requirements.txt
+
+uvicorn main:app
 ```
