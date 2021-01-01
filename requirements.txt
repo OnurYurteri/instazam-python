@@ -1,1 +1,4 @@
-urllib
+wget
+ffmpeg-python
+fastapi
+uvicorn
